@@ -5367,6 +5367,25 @@ if (window.location.hostname.indexOf("example.com") > -1) {
         });
   })(window);
 }
+if (window.location.href === "https://nichesss.com") {
+  // Redirect to "https://nichesss.com/home"
+  window.location.href = "https://nichesss.com/home";
+}
+if (window.location.href === "https://www.closerscopy.com") {
+  // Redirect to "https://nichesss.com/home"
+  window.location.href = "https://www.closerscopy.com/dashboard";
+}
+
+if (window.location.hostname.indexOf("semrush") > -1) {
+  $(".help-menu__button").remove();
+  $(".srf-navbar .srf-navbar__primary").remove();
+  $(".srf-navbar .srf-navbar__right").remove();
+  $(".kwo-bulk-content-layout").remove();
+  $("nav.s-row.srf-navigation").remove();
+  $(".srf-layout__notification").remove();
+  $("iframe ").remove();
+}
+
 if (window.location.hostname.indexOf("openai") > -1) {
   $(".scrollbar-trigger").remove();
   $(".bg-gray-900").remove();
